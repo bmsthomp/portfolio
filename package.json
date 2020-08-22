@@ -4,7 +4,8 @@
   "description": "Brian Thompson personal web portfolio",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "grunt deploy"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/bmsthomp/portfolio/issues"
   },
-  "homepage": "https://github.com/bmsthomp/portfolio#readme"
+  "homepage": "https://github.com/bmsthomp/portfolio#readme",
+  "devDependencies": {
+    "grunt": "^1.3.0",
+    "grunt-aws-s3": "^2.0.2"
+  },
+  "dependencies": {
+    "grunt-aws": "^0.7.1",
+    "grunt-cli": "^1.3.2",
+    "grunt-contrib-connect": "^3.0.0",
+    "save-dev": "0.0.1-security"
+  }
 }
